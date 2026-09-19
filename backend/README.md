@@ -47,6 +47,7 @@ Configured in `.env`:
 | Variable | Default Value | Description |
 | :--- | :--- | :--- |
 | `DATABASE_URL` | `postgresql+psycopg://cinema_user:cinema_password@localhost:5432/cinema_explorer` | PostgreSQL connection string using psycopg3 |
+| `CORS_ORIGINS` | `http://localhost:3000,http://127.0.0.1:3000` | Comma-separated allowed origins for CORS |
 
 ---
 
